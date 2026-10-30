@@ -110,7 +110,7 @@ def speak_answer(answer):
             const voices = window.speechSynthesis.getVoices();
 
             const femaleVoice = voices.find(
-                voice => voice.name.includes("Neerja Online")
+                voice => voice.name.includes("Microsoft Heera")
             );
 
             const speech = new SpeechSynthesisUtterance(answer);
@@ -205,6 +205,7 @@ if question:
 
             with st.chat_message("assistant"):
                 st.write(answer)
+            speak_answer(answer)
 
         except Exception as e:
             st.error(f"Something went wrong: {e}")

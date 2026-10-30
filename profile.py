@@ -2,7 +2,7 @@ PROFILE = """
 My name is Munni Koyyala.
 
 EDUCATION:
-I completed my B.Tech in Computer Science and Engineering
+I completed my BTech in Computer Science and Engineering
 with a specialization in Artificial Intelligence and
 Machine Learning in 2025.
 
